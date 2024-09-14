@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Teas of Truth</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <header>
+        <h1>Teas of Truth</h1>
+        <p>Crafted for the soul, brewed for the moment</p>
+    </header>
+
+    <section class="hero">
+        <div class="hero-text">
+            <h2>Your Perfect Cup Awaits</h2>
+        </div>
+    </section>
+
+    <section class="menu">
+        <h2>Menu</h2>
+        <ul>
+            <li>Black Tea - $3.50</li>
+            <li>Green Tea - $4.00</li>
+            <li>Herbal Tea - $4.50</li>
+            <li>Chai Latte - $5.00</li>
+            <li>Matcha Latte - $5.50</li>
+        </ul>
+    </section>
+
+    <section class="order-form">
+        <h2>Place Your Order</h2>
+        <form id="orderForm">
+            <label for="name">Your Name:</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="email">Your Email:</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="drink">Select Your Drink:</label>
+            <select id="drink" name="drink">
+                <option value="Black Tea">Black Tea</option>
+                <option value="Green Tea">Green Tea</option>
+                <option value="Herbal Tea">Herbal Tea</option>
+                <option value="Chai Latte">Chai Latte</option>
+                <option value="Matcha Latte">Matcha Latte</option>
+            </select>
+            
+            <label for="quantity">Quantity:</label>
+            <input type="number" id="quantity" name="quantity" min="1" required>
+
+            <button type="submit">Submit Order</button>
+        </form>
+    </section>
+
+    <section class="contact">
+        <h2>Contact Us</h2>
+        <p>Email: info@teasoftruth.com</p>
+        <p>Phone: +123-456-7890</p>
+        <p>Address: 123 Tea Lane, Brewtown</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Teas of Truth. All Rights Reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
